@@ -1,7 +1,9 @@
 window.addEventListener('clear', function (eventData) {
-        console.log('In Script');
 
     try {
+        console.log('In Script');
+        console.log(eventData);
+
         document.getElementById("chatBoxMain").innerHTML = "";
         document.getElementById("chatOptions").innerHTML = "";
         window.YellowMessengerPlugin.sendEvent(JSON.stringify({
