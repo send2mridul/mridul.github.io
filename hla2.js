@@ -1,3 +1,5 @@
+console.log('In Script');
+console.log(eventData);
 window.addEventListener('clear', function (eventData) {
     try {
     	console.log('In Script');
